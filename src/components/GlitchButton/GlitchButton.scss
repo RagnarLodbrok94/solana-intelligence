@@ -1,0 +1,89 @@
+// variables.scss
+$button-background: #1f1f2e; // Темний фон кнопки
+$button-hover: #272742; // Світліший фон при наведенні
+$text-color: #FFFFFF; // Білий
+$disabled-color: rgba(255, 255, 255, 0.5); // Напівпрозорий білий для дісейблених кнопок
+
+$primary-color: #1FCFF1; // Бірюзовий (основний текст)
+$secondary-color: #24D1A8; // М'який зелений (другий ефект)
+$accent-color: #A76BCF; // М'який фіолетовий (перший ефект)
+
+.glitch-button {
+  position: relative;
+  background-color: $button-background; // Темний фон кнопки
+  color: $text-color; // Білий колір тексту
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: none;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background-color: $button-hover; // Світліший фон при наведенні
+  }
+
+  &:disabled {
+    background-color: $disabled-color; // Напівпрозорий фон для неактивних кнопок
+    cursor: not-allowed;
+  }
+}
+
+.glitch-button-sm {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.glitch-button-md {
+  padding: 16px 32px;
+  font-size: 20px;
+}
+
+.glitch-text {
+  position: relative;
+  display: inline-block;
+  color: $primary-color; // Яскраво-зелений для основного тексту
+
+  &::before,
+  &::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: $accent-color; // Рожевий для першого шару глітча
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  }
+
+  &::after {
+    color: $secondary-color; // Світліший зелений для другого шару глітча
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    animation: glitch-animation 1s infinite linear alternate-reverse;
+  }
+}
+
+
+@keyframes glitch-animation {
+  0% {
+    transform: translate(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-2px, -2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

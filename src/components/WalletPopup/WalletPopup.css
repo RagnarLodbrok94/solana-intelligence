@@ -1,0 +1,68 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6); /* Напівпрозорий чорний фон */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #000; /* Темно-сірий фон */
+  color: #39ff14; /* Яскравий зелений текст */
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.3), 0 0 25px rgba(57, 255, 20, 0.2); /* Неоновий зелений тінь */
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.popup-title {
+  color: #39ff14; /* Яскравий зелений */
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Стилі для списку гаманців */
+.wallet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.wallet-list-item {
+  margin: 12px 0;
+}
+
+.wallet-list-link {
+  display: block;
+  background-color: #1a1a1a; /* Темний, але не зовсім чорний фон */
+  color: #39ff14; /* Яскравий зелений текст */
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: inset 0 0 8px rgba(57, 255, 20, 0.15), 0 0 8px rgba(57, 255, 20, 0.2); /* Легкий зовнішній та внутрішній тіньовий ефект */
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.wallet-list-link:hover {
+  background-color: #222; /* Трохи світліший фон при наведенні */
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.3), 0 0 30px rgba(57, 255, 20, 0.2); /* Інтенсивніший неоновий ефект */
+}
+
+.wallet-list-link:active {
+  box-shadow: 0 0 8px rgba(57, 255, 20, 0.3); /* Менш виразна тінь */
+}

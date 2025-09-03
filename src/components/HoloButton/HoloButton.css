@@ -1,0 +1,52 @@
+.holo-button {
+  position: relative;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(0, 255, 220, 1), rgba(88, 0, 255, 1));
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 255, 220, 0.6), 0 0 20px rgba(88, 0, 255, 0.6);
+  animation: pulse 2s infinite;
+}
+
+.holo-button:hover {
+  background: linear-gradient(90deg, rgba(88, 0, 255, 1), rgba(0, 255, 220, 1));
+  box-shadow: 0 0 20px rgba(88, 0, 255, 0.8), 0 0 30px rgba(0, 255, 220, 0.8);
+}
+
+.holo-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 255, 220, 0.5), rgba(88, 0, 255, 0.5), transparent 70%);
+  animation: rotateGlow 5s infinite linear;
+  transition: all 0.5s ease;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes rotateGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

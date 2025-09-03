@@ -1,0 +1,53 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280.65 153.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Безымянный_градиент);
+      }
+
+      .cls-2 {
+        fill: url(#Безымянный_градиент_2);
+      }
+
+      .cls-3 {
+        fill: url(#Безымянный_градиент_3);
+      }
+
+      .cls-4 {
+        fill: url(#Безымянный_градиент_4);
+      }
+
+      .cls-5 {
+        fill: url(#Безымянный_градиент_5);
+      }
+
+      .cls-6 {
+        fill: #d9d9d9;
+        fill-opacity: 0.1;
+      }
+    </style>
+    <linearGradient id="Безымянный_градиент" data-name="Безымянный градиент" x1="162.33" y1="59.79" x2="22.33" y2="42.78" gradientTransform="matrix(1, 0, 0, -1, 0, 239.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9e3dfc"/>
+      <stop offset="1" stop-color="#dc88f7"/>
+    </linearGradient>
+    <linearGradient id="Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="162.25" y1="60.38" x2="22.26" y2="43.37" xlink:href="#Безымянный_градиент"/>
+    <linearGradient id="Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="311.96" y1="146.01" x2="172.01" y2="128.94" gradientTransform="matrix(1, 0, 0, -1, 0, 239.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4afe9b"/>
+      <stop offset="1" stop-color="#31abde"/>
+      <stop offset="1" stop-color="#9e3dfc"/>
+    </linearGradient>
+    <linearGradient id="Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="312.03" y1="145.41" x2="172.09" y2="128.34" xlink:href="#Безымянный_градиент_3"/>
+    <linearGradient id="Безымянный_градиент_5" data-name="Безымянный градиент 5" x1="193.79" y1="15.82" x2="139.76" y2="173.02" gradientTransform="matrix(1, 0, 0, -1, 0, 239.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9700fd"/>
+      <stop offset="1" stop-color="#31abde"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="cls-1" d="M164.74,222.33l-85.83.06c-24.72,0-38.85-28.2-24-48L66.8,158.5a30,30,0,0,1,24.09-12l73.85.21Z" transform="translate(-26.84 -68.56)"/>
+    <path class="cls-2" d="M164.74,222.33l-129.93.09a8,8,0,0,1-6.37-12.72l45-60.06a8,8,0,0,1,6.39-3.18l84.92.24Z" transform="translate(-26.84 -68.56)"/>
+    <path class="cls-3" d="M169.58,68.71l85.83-.06c24.72,0,38.85,28.2,24,48l-11.91,15.9a30,30,0,0,1-24.1,12l-73.85-.21Z" transform="translate(-26.84 -68.56)"/>
+    <path class="cls-4" d="M169.58,68.71l129.93-.09a8,8,0,0,1,6.37,12.72l-45,60.06a8,8,0,0,1-6.39,3.18l-84.92-.24Z" transform="translate(-26.84 -68.56)"/>
+    <path class="cls-5" d="M170.67,68.71l75.58,103.86a20,20,0,0,1-.18,23.78l-13.52,18a20,20,0,0,1-16,8h-53.5l-75.77-104a20,20,0,0,1,.21-23.83l13.57-18a20,20,0,0,1,16-8Z" transform="translate(-26.84 -68.56)"/>
+    <path class="cls-6" d="M170.75,68.72,246.2,172.59a20,20,0,0,1-.16,23.73l-3.41,4.56a24,24,0,0,1-38.55-.14L112.64,76.53a5,5,0,0,1,4-8Z" transform="translate(-26.84 -68.56)"/>
+  </g>
+</svg>

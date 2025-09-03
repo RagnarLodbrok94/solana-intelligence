@@ -1,0 +1,1 @@
+export { PhantomIcon, SolflareIcon, BackpackIcon } from './WalletIcons';
