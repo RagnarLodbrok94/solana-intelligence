@@ -18,7 +18,7 @@
 .env.production.local
 
 # якщо є окремий сервер (залиш як у тебе)
-/solana-server
+/solana-server/node_modules
 /solana-server/.env
 
 # logs
